@@ -1,0 +1,20 @@
+#board {
+    display: grid;
+    gap: 6px;
+    width: 400px;              /* ajusta al gusto */
+    margin: 8px auto;
+}
+.casilla {
+    border: 1px solid #444;
+    background: #f0f8ff;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    user-select: none;
+}
+
+#disparar {
+    display: none;
+}

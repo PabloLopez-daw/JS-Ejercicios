@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Submarino</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <div class="game-container">
+        <div id="gameStatus" class="status-panel">
+            Juego no iniciado
+        </div>
+        <button id="boton">Crear Tablero</button>
+        <input type="number" id="coordX" placeholder="X" min="0" max="4">
+        <input type="number" id="coordY" placeholder="Y" min="0" max="4">
+        <button id="disparar">Disparar</button>
+
+        <div id="board" >
+            <template id="tabla">
+                <div class="casilla"></div>
+            </template>
+        </div>
+
+    </div>
+
+    <script type="module" src="./js/game.js" type="module"></script>
+</body>
+
+</html>

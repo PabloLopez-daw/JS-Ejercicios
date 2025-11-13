@@ -9,14 +9,14 @@ class Submarino {
     init(size) {
         this.x = Math.floor(Math.random() * size);
         this.y = Math.floor(Math.random() * size);
-        console.log(`El submarino se ha inicializado en (${this.x}, ${this.y})`);
+        console.log('El submarino se ha movido a', this.x, this.y);
     }
 
     mover(vecinos) {
         const vecino =  vecinos[Math.floor(Math.random() * vecinos.length)];
         this.x = vecino.x;
         this.y = vecino.y;
-        console.log(`El submarino se ha movido a (${this.x}, ${this.y})`);
+        console.log('El submarino se ha movido a', this.x, this.y);
     }
 }
 

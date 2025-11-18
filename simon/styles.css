@@ -1,0 +1,12 @@
+.boton {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#verde {
+    width: 150px;
+    height: 150px;
+}

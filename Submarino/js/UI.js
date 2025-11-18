@@ -6,6 +6,9 @@ export const UI = {
     plantilla: null,
     boton : null,
     disparar : null,
+    coordx : null,
+    coordy : null,
+    win : null,
     init: (UIControl) => {
         UI.board = document.getElementById(UIControl.board);
         UI.status = document.getElementById(UIControl.status);
@@ -15,6 +18,7 @@ export const UI = {
         UI.disparar = document.getElementById(UIControl.disparar);
         UI.coordx = document.getElementById(UIControl.coordx);
         UI.coordy = document.getElementById(UIControl.coordy);
+        UI.win = document.getElementById(UIControl.win);
 
     },
 
@@ -25,9 +29,6 @@ export const UI = {
     changeStatus: (message) => {
         UI.status.textContent = message;
     }
-
-    
-
-   
+ 
 
 }

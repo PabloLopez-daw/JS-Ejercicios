@@ -10,8 +10,7 @@ export class GameSubmarine {
             size: 5
         });
 
-        if (this.UIControl.boton) {
-            
+        if (this.UIControl.boton) {            
             this.UIControl.boton.addEventListener('click', () => {
                 this.tablero.tablet(this.tablero.size, this.UIControl.plantilla, this.UIControl.board, '.casilla');
                 this.UIControl.disparar.style.display = 'inline';
@@ -29,6 +28,7 @@ export class GameSubmarine {
 
                 if (this.tablero.dispara(x, y)){
                     this.UIControl.board.style.display = 'none';
+                    this.UIControl.win.style.display = 'block';
                 }
 
             });

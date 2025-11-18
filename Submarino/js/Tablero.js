@@ -31,7 +31,7 @@ class Tablero {
         for (let i = 0; i < total * total; i++) {
             const clon = plantilla.content.cloneNode(true);
             clon.querySelector(casilla).textContent = i + 1;
-            tabla.appendChild(clon);
+            tabla.appendChild(clon);    
         }
     }
 

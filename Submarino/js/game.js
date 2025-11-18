@@ -9,7 +9,8 @@ UI.init({
     boton : 'boton',
     disparar : 'disparar',
     coordx : 'coordX',
-    coordy : 'coordY'
+    coordy : 'coordY',
+    win : 'win'
 });
 
 

@@ -1,0 +1,20 @@
+.casilla {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid #000000;
+    border-radius: 50%;
+
+}
+
+.tabla {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+
+}
